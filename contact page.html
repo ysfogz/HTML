@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <nav align="right">
+        <a href="/home page.html">Home</a> 
+        <a href="/contact page.html">Contact</a> 
+    </nav>
+    <h1>The Hicoders welcomes you!</h1>
+    <p>We are experienced software engineers. We volutarily help people who are interested in IT and run various courses for this purpose. İf yıu are interested in our course, do not besitate to contact us!</p>
+    <table>
+        <caption>
+        <h4>Personal İnformation</h4>
+        <form>
+            <label for="fname">First name</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Please enter your first name!"><br>
+            <label for="lname">Last name</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Please enter your last name!"><br>
+            <label for="email">Email</label><br>
+            <input type="email" placeholder="Please enter your email!"><br>
+            <br>Gender<br>
+            <input type="radio" name="gender" id="gender"  value="Female">
+            <label for="email">Kadın</label>
+            <input type="radio" name="gender" id="gender" value="Male">
+            <label for="email">Erkek</label>
+            <label for="fname">Phone</label><br>
+            <input type="text" id="phone" name="phone" placeholder="Please enter your phone no!"><br>
+            <label for="Gradution">Gradution</label>
+            <select id="Graduiton">
+            <option value="volvo">PhD.</option>
+            <option value="saab">MAster</option>
+            <option value="opel">Bachelor</option>
+            <option value="audi">Assocation</option>
+            </select>
+            <br>
+            <label for="text">What do you expect from this course?</label>
+            <textarea id="text" name="text" rows="5" cols="80">
+            </textarea>
+            <br>
+            <label for="text">Why do you learning programming?</label>
+            <textarea id="text" name="text" rows="5" cols="80">
+            </textarea>
+            <p>Family members</p>
+            <label for="yes_no_radio">Are you married?</label>
+            <p>
+            <input type="radio" name="yes_no" checked>Yes</input></p>
+            <p><input type="radio" name="yes_no">No</input></p>
+            <p>İf you maried, how many child do you have?</p>
+            <input type="text" id="textarea" name="textarea" placeholder="Enter number of children">
+            <p>Comfirmation and Aplication</p>
+            <p>Which ones are you fimiliar with?</p>
+            <input type="checkbox" id="apilcation1" name="apilcation1" value="Html">
+            <label for="apilcation1"> HTML</label><br>
+            <input type="checkbox" id="apilcation2" name="apilcation2" value="Css">
+            <label for="apilcation2"> CSS</label><br>
+            <input type="checkbox" id="Aplication3" name="apilcation3" value="Bootstrap">
+            <label for="aplication3"> Bootstrapt</label><br>
+            <input type="checkbox" id="apilcation4" name="apilcation4" value="Javascript">
+            <label for="apilcation4"> Javascript</label><br>
+            <input type="checkbox" id="apilcation5" name="apilcation5" value="NodeJS">
+            <label for="apilcation5">NodeJS </label><br>
+            <input type="checkbox" id="Aplication6" name="apilcation6" value="ReactJS">
+            <label for="aplication6"> ReactJS</label><br>
+            <p>Add your CV</p>
+            <input type="file" name="dosya"></input></p>
+            <input type="checkbox" id="confirm" name="confirm" required value="confirm">
+            <label for="confirm">Please confirm by ticking the box after reading the <a href="/privacy terms and conditions!"></a>privacy terms and conditions!</label><br>
+            <br>
+            <input type="submit" value="Submit">     
+        </form>
+    </table>
+    
+</body>
+</html>
